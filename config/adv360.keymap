@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT                  &kp LEFT_BRACE                                                                   &kp RIGHT_BRACE  &kp CARET  &kp AMPERSAND     &kp N8  &kp MINUS  &kp EQUAL    &kp BSPC
-   &kp TAB            &kp Q        &kp W      &kp E       &kp R        &kp T            &kp LEFT_PARENTHESIS                                                             &kp RIGHT_PARENTHESIS      &kp Y          &kp U      &kp I      &kp O      &kp P    &kp BSLH
-   &kp ESC            &kp A        &kp S      &kp D       &kp F        &kp G                &kp LEFT_BRACKET  &kp LCTRL  &kp LALT   &none   &none   &kp LGUI  &kp RCTRL      &kp RIGHT_BRACKET      &kp H          &kp J      &kp K      &kp L   &kp SEMI     &kp SQT
- &kp LSHFT            &kp Z        &kp X      &kp C       &kp V        &kp B                           &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none                  &none      &kp N          &kp M  &kp COMMA    &kp DOT   &kp FSLH   &kp RSHFT
- &kp LCTRL        &kp GRAVE     &kp CAPS   &kp LEFT   &kp RIGHT                                    &kp SPACE    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER              &kp ENTER                  &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT  &kp DELETE
+ &kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT                  &kp LEFT_BRACE                                                                         &kp RIGHT_BRACE  &kp CARET  &kp AMPERSAND     &kp N8  &kp MINUS  &kp EQUAL    &kp BSPC
+   &kp TAB            &kp Q        &kp W      &kp E       &kp R        &kp T            &kp LEFT_PARENTHESIS                                                                   &kp RIGHT_PARENTHESIS      &kp Y          &kp U      &kp I      &kp O      &kp P    &kp BSLH
+   &kp ESC            &kp A        &kp S      &kp D       &kp F        &kp G                &kp LEFT_BRACKET  &kp BACKSPACE       &kp DEL   &none   &none   &kp HOME  &kp END      &kp RIGHT_BRACKET      &kp H          &kp J      &kp K      &kp L   &kp SEMI     &kp SQT
+ &kp LSHFT            &kp Z        &kp X      &kp C       &kp V        &kp B                           &none          &none  &kp CAPSLOCK   &none   &none  &kp PG_UP    &none                  &none      &kp N          &kp M  &kp COMMA    &kp DOT   &kp FSLH   &kp RSHFT
+ &kp LCTRL        &kp GRAVE     &kp CAPS   &kp LEFT   &kp RIGHT                                    &kp SPACE          &mo 1    &kp INSERT                  &kp PG_DN    &mo 2              &kp ENTER                  &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT  &kp DELETE
             >;
         };
 
