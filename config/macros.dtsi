@@ -2,12 +2,11 @@ macro_alt_shift: macro_alt_shift{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_shift";
 #binding-cells = <0>;
-bindings = <
-    &macro_press &kp LALT    // Press Left Alt
-    &macro_press &kp LSHFT   // Press Left Shift
-    &macro_release &kp LALT  // Release Left Alt
-    &macro_release &kp LSHFT // Release Left Shift
-  >;
+bindings =
+    <&macro_press &kp LALT>,
+    <&macro_press &kp LSHFT>,
+    <&macro_release &kp LALT>,
+    <&macro_release &kp LSHFT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
